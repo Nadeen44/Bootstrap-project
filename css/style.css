@@ -1,0 +1,32 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    color: #123a42cc;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(88, 165, 180,0.8),rgba(88, 165, 180,0.8)), url(../images/mountains.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    box-shadow: 0 5px 8px  #58a5b4cc;
+}
+.navbar-brand, .nav-link{
+    color: #123a42cc;
+    
+}
+.navbar-brand{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 30px !important;
+}
+.nav-link.active, .nav-link:hover{
+    color: #fff !important;
+}
+#authors img{
+    margin-top: -70px;
+}
